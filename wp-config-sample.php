@@ -23,7 +23,7 @@
 define( 'DB_NAME', 'database_name_here' );
 
 /** Имя пользователя базы данных */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'admin' );
 
 /** Пароль к базе данных */
 define( 'DB_PASSWORD', 'password_here' );
