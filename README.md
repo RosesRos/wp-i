@@ -1,4 +1,4 @@
-# wp-i
+# wp-i with tinyCP
 
 ## in the Terminal
 
