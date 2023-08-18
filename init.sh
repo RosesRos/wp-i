@@ -12,7 +12,7 @@ mysql -h $HOST_NAME --user=admin --password --execute="create database $1"
 rm -rf ${dir}/core
 mv wp/* ${dir}/
 rm -rf wp/
-rm -rf ${dir}/index.sh
+rm -rf ${dir}/init.sh
 echo "your database for WP: $1"
 
 
