@@ -16,6 +16,15 @@ user_wp_db () {
   done
 }
 
+name_wp_db () {
+  while read -p "$1: $(c_purple)" NAME_DB; do
+      if [ $NAME_DB ]; then
+          break;c_clean
+      else echo "$(c_red) $1 should not be empty";c_clean;
+      fi
+  done
+}
+
 user_wp () {
   while read -p "$1: $(c_purple)" USER_ADMIN; do
       if [ $USER_ADMIN ]; then
