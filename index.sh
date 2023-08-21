@@ -15,3 +15,6 @@ source ${dir}/core/variables.sh
 # WP INSTALL
 ####################################
 wp_download "download --force"
+user_db "Enter User for dabatabase WP"
+# wp_config "create --dbname='${wp_db_name}' --dbuser='${wp_db_user}' --dbpass='${wp_db_pass}' --dbhost=localhost --force"
+wp_config "create --dbname='${wp_db_name}' --dbuser='${wp_db_user}' --prompt --dbhost=localhost --force"
