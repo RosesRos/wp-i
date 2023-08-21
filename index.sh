@@ -32,5 +32,5 @@ rm -rf ${dir}/README.md
 echo ""
 echo "https://${HOST_NAME}/wp-admin"
 echo --------------------
-echo ${USER_ADMIN}
-echo ${PASS_ADMIN}
+echo "login: ${USER_ADMIN}"
+echo "password: ${PASS_ADMIN}"
