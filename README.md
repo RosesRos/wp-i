@@ -11,3 +11,7 @@ you need to execute command = ./init.sh+*database_name for WP*
 4) ./init.sh *database_name for WP*
 5) popd
    
+# install wp via CLI
+
+## in the terminal
+
