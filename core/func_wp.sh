@@ -1,3 +1,3 @@
 wp_download () {
-    wp --allow-root --path=${wp_html_path} core $s1
+    wp --allow-root core --path=${wp_html_path} $s1
 }

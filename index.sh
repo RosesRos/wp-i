@@ -8,8 +8,8 @@ source ${dir}/core/inputs.sh
 c_bas
 input 'Host name'
 
-source ${dir}/core/variables.sh
 source ${dir}/core/func_wp.sh
+source ${dir}/core/variables.sh
 
 ####################################
 # WP INSTALL
