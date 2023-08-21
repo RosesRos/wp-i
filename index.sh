@@ -27,6 +27,7 @@ pushd ${dir}./
 rm -rf ${dir}/wp-i/
 rm -rf ${dir}/core
 rm -rf ${dir}/index.sh
+rm -rf ${dir}/README.md
 
 echo ""
 echo "https://${HOST_NAME}/wp-admin"
