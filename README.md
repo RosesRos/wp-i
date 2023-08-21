@@ -4,14 +4,9 @@
 
 1) git clone https://github.com/RosesRos/wp-i.git
 2) pushd wp-i
-3) chmod +x init.sh
-
-you need to execute command = ./init.sh+*database_name for WP*
-
-4) ./init.sh *database_name for WP*
+3) chmod +x index.sh
+4) ./index.sh
 5) popd
-   
-# install wp via CLI
+6) enjoi with WP-SITE ))
 
-## in the terminal
 

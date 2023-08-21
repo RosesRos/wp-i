@@ -26,8 +26,6 @@ mv ${dir}/* ${dir}./
 pushd ${dir}./
 rm -rf ${dir}/wp-i/
 rm -rf ${dir}/core
-rm -rf ${dir}/wp
-rm -rf ${dir}/init.sh
 rm -rf ${dir}/index.sh
 
 echo ""
