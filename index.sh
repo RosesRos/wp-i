@@ -20,7 +20,7 @@ user_wp "Enter User for admin WP"
 pass_wp "Enter Pass for admin WP"
 wp_core "download --force"
 wp_config "create --dbname=${NAME_DB} --dbuser=${USER_DB} --prompt --dbhost=localhost --force"
-wp_core "install --url=${HOST_NAME} --title=${HOST_NAME%%.*} --admin_user=${USER_ADMIN} --admin_password=${PASS_ADMIN} --admin_email=webmaster${HOST_NAME}@gmail.com"
+wp_core "install --url=${HOST_NAME} --title=${HOST_NAME%%.*} --admin_user=${USER_ADMIN} --admin_password=${PASS_ADMIN} --admin_email=webmaster@${HOST_NAME}"
 
 mv ${dir}/* ${dir}./
 pushd ${dir}./
